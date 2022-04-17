@@ -1,0 +1,11 @@
+a{
+    margin: 5px 10px;
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(165, 250, 217);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
