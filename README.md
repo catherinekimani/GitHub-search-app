@@ -2,6 +2,7 @@
 
 #### By Catherine Kimani
 
+![catherine](./src/assets/readme.png)
 ## Table Of Content
 
 + [Description](#description)
