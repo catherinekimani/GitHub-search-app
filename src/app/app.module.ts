@@ -8,18 +8,24 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { UsersComponent } from './users/users.component';
 import { ReposComponent } from './repos/repos.component';
 import { HttpClientModule } from '@angular/common/http';
+import { MyAppDirective } from './directives/my-app.directive';
+import { PipePipe } from './pipes/pipe.pipe';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     UsersComponent,
-    ReposComponent
+    ReposComponent,
+    MyAppDirective,
+    PipePipe
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [ApiService],
   bootstrap: [AppComponent]
