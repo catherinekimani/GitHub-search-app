@@ -13,8 +13,6 @@ export class AppComponent implements OnInit{
     
   }
   ngOnInit(): void {
-    this.apiService.getRepos().subscribe((Repos) => 
-      console.log(Repos)
-    );
+    
   }
 }
