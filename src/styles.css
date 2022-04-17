@@ -1,5 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
-body{
-    background-color: rgb(223, 247, 247);
-    height: auto;
+@import url("https://fonts.googleapis.com/css2?family=Anek+Gujarati:wght@100;200;300;400;600&family=Courgette&display=swap");
+body {
+  background-color: rgb(223, 247, 247);
+  height: auto;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Anek Gujarati", sans-serif;
+  font-weight: bold;
 }
