@@ -1,6 +1,4 @@
 .card{
     height: 40vh;
-    /* display: flex;
-    align-items: center;
-    justify-content: space-around; */
+    background-color: rgb(159, 190, 171);
 }

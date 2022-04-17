@@ -22,6 +22,6 @@ export class ApiService {
   getRepo() {
     return this.http.get("https://api.github.com/users/" + this.userName + "/repos?api_key=" + environment.apiKey).pipe(map(data => {
       return data
-    }))
+    }));
   }
 }
