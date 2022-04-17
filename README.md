@@ -1,5 +1,43 @@
 # GitHubSerchApp
 
+#### By Catherine Kimani
+
+## Table Of Content
+
++ [Description](#description)
++ [Installation Requirement](#Installation)
++ [Technology Used](#technology-used)
++ [Licence](#licence)
++ [Authors Info](#author-Info)
+
+## Description 
+A website made in Angular where users may enter their GitHub usernames into a form, submit it, and see names and descriptions of their public repositories.
+
+## Installation
+
+### Requirements
+
+* Make sure you have access to a computer
+* make sure you have access to the internet
+* Create a GitHub account
+
+[Go back to the top](#githubserchapp)
+
+## Technologies Used
+
+* HTML - Which was used to build the structure of the page
+* CSS - Which was used for styling and layout
+* Typescript - Which was used to for the site's logic and functionality
+
+## Licence
+
+Copyright (c) [2022] [Catherine Kimani](LICENCE)
+
+## Authors Info
+
+linked - [Catherine Kimani](https://www.linkedin.com/in/catherine-kimani-5464ba1b6/)
+Email - [Catherine Kimani](catherinekimani882@gmail.com)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
 
 ## Development server
