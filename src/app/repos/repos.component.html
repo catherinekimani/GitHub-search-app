@@ -1,1 +1,4 @@
-<p>repos works!</p>
+<ul *ngFor="repo of repo">
+    <li>{{repo.repo_url}}</li>
+    <p>{{repo.public_repos}}</p>
+</ul>
