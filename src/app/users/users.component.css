@@ -28,7 +28,14 @@ h5 {
 }
 
 input{
-    background-color: aqua;
+    background-color: rgb(28, 84, 238);
     width: 40%;
     margin-left: 40%;
+}
+
+::placeholder{
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    
 }
