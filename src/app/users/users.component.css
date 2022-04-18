@@ -6,3 +6,29 @@
     float: left;
     margin: 2%;
 }
+
+card {
+    height: 40vh;
+    background-color: rgb(159, 190, 171);
+}
+
+a {
+    color: rgb(48, 47, 46);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+h5 {
+    color: blue;
+    font-size: 25px;
+}
+
+.repo {
+    font-size: 20px;
+}
+
+input{
+    background-color: aqua;
+    width: 40%;
+    margin-left: 40%;
+}

@@ -1,7 +1,7 @@
-<!-- <div>
-    <p>{{user.followers}}</p>
-    <img src="{{user.avatar_url}}" alt="">
-</div> -->
+<form class="d-flex">
+    <input class="form-control me-2" type="search" placeholder="Enter UserName" aria-label="Search"
+        [(ngModel)]="userName" name="userName" (keyup)="searchUser()">
+</form>
 
 <div class="container-fluid">
     <img src="{{user.avatar_url}}" alt="">
@@ -10,5 +10,21 @@
         <h4>{{user.bio}}</h4>
         <h5>{{user.twitter_username}}</h5>
         <h6>{{user.location}}</h6>
+    </div>
+</div>
+<div class="col-md-12 repo m-3">
+    <div class="row">
+        <div class="col-md-4 card" *ngFor="let repo of repo">
+            <a href="{{repo.html_url}}">
+                <h5>{{repo.name}}</h5>
+                <p>{{repo.description}}</p>
+            </a>
+            <div class="repo">
+                <p>{{repo.language}}</p>
+                <p>Created on {{repo.created_at | date}}</p>
+                <p>{{repo.forks_count}} forks </p>
+            </div>
+
+        </div>
     </div>
 </div>

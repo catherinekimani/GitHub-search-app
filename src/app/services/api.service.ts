@@ -8,9 +8,7 @@ import { environment } from 'src/environments/environment';
 })
 export class ApiService {
   private userName: string;
-
   constructor(private http: HttpClient) { 
-    console.log("service")
     this.userName = "catherinekimani"
   }
   // userinfo
@@ -24,4 +22,8 @@ export class ApiService {
       return data
     }));
   }
+  getUsername(userName: string) {
+    this.userName = userName;
+  }
+  
 }

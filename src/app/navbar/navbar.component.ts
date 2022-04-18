@@ -8,13 +8,10 @@ import { ApiService } from '../services/api.service';
   providers: [ApiService]
 })
 export class NavbarComponent implements OnInit {
-public userName : string
-  constructor() { 
-    this.userName = "catherinekimani"
+  
+  constructor(private apiService:ApiService) { 
   }
-  searchUser() {
-    
-  }
+  
   ngOnInit(): void {
   }
 
