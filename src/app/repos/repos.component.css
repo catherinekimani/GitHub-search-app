@@ -4,5 +4,14 @@
 }
 
 a{
-    color: black;
+    color: rgb(48, 47, 46);
+    font-size: 20px;
+}
+h5{
+    color: blue;
+    font-size: 25px;
+}
+
+.repo{
+    font-size: 20px;
 }
